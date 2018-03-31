@@ -1,0 +1,69 @@
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.inline {
+    display:inline-block;
+}
+
+input[type=checkbox], input[type=radio] {
+    margin-right: 0.5rem;
+    margin-left: 2rem;
+}
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+.featurette-divider {
+    margin-top: 40px; /* Space out the Bootstrap <hr> more */
+}
+
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+}
+
+/* col-md-7 contains text boxes on cover page */
+.consent-box   {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.error {
+    color: red;
+}
+
+.remind {
+    color: #ff9966;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+@media (min-width: 40em) {
+    .featurette-heading {
+        font-size: 40px;
+    }
+}
+
+

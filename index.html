@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+
+    <title>Landing Page | In-House Identities Explorer </title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!-- Link to internal stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet-master.css">
+
+    <!-- Links to Google Fonts: -->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<!-- HEADER BAR-->
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <img class="nav-left">
+
+            <img class="featurette-image img-fluid mx-auto" src="res/icons/u-icon.png" alt="Image"> </img>
+
+             <a class="navbar-brand" href="#">ID Explore</a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+             </button>
+         </div>
+         <div class="collapse navbar-collapse" id="navbarCollapse">
+             <ul class="navbar-nav mr-auto" >
+                 <li class="nav-item active">
+                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="#linktoabout">About</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="#linktocontact">Contact</a>
+                 </li>
+             </ul>
+        </div>
+    </nav>
+</header>
+
+<main role="main">
+
+
+        <!-- START THE FEATURETTES -->
+
+    <!-- BEGIN SURVEY SECTION WITH NEW BACKGROUND -->
+    <div class="col-md-12">
+        <div class="col-lg-7">
+            <h2 class="featurette-heading" style="padding-top:60px;">Learn about yourself. <br> <span class="text-muted">And contribute to research!</span></h2>
+            <h6 class="lead">The In-House Identities Explorer is an online survey tool created by Prof. Richard Moorhead at the UCL Faculty of Laws. It is designed as a benchmarking tool, to provide some insight into how you see your own role, and how that compares to other in-house lawyers.
+
+            In-house lawyers can use the 15-minute-questionnaire to obtain an in-depth individual report on their role orientations within their work environment.</h6>
+            <a href="password-test.html"> <button type="button">Begin survey </button> </a>
+        </div>
+    </div>
+
+    <div class="colored-bar"> </div>
+
+    <!-- HOW IT WORKS SECTION-->
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="how-icon" src="res/icons/icon-password-1.png" alt="Password test icon">
+            <h6 class="lead">Enter the survey tool with the password that you received via email. If you are an in-house lawyer and would like to use the tool but do not have a password to enter, please contact us by email. </h6>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="how-icon" src="res/icons/icon-survey-1.png" alt="Survey icon">
+            <h6 class="lead">You should schedule about 15 focused minutes to fill out the survey which consists of less than 100 questions. The survey can be completed on mobile and desktop without any problems.</h6>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="how-icon" src="res/icons/icon-report-1.png" alt="Individual report icon">
+            <h6 class="lead">Upon completing the survey, an individual report will be generated for you that can be exported with our email function. The report compares your score against our database and provides relevant background information. The report is personal to you. We do not hold a copy of the report or data which identifies you. </h6>
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+    <div class="colored-bar" style="margin-top: 40px"> </div>
+
+    <!-- ABOUT SECTION -->
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">About this survey. <a name="linktoabout"> </a> <br> <span class="text-muted">Designed with a research focus at University College London, the ID Explorer is a collaboration between Prof. Richard Moorhead and the Computer Science Department. Through this survey, wee hope to learn more about the role that in-house lawyers take in their respective position. </span></h2>
+                <h6 class="lead">.</h6>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="res/img/eyeem-ucl-cropped.png" />
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+    <!-- CONTACT SECTION-->
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Need help? We are there! <a name="linktocontact"> </a> <br> <span class="text-muted">Contact us.</span></h2>
+                <h6 class="lead">Our team is located at University College London. Feel free to contact us by email: r.moorhead [at] ucl [dot] ac [dot] uk</h6>
+            </div>
+
+            <!-- GOOGLE MAPS -->
+            <div class="col-md-5">
+            <div id="map" >
+            </div>
+            </div>
+            <script>
+                function initMap() {
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        center: {lat: 51.528265, lng: -0.126688},
+                        zoom: 15
+                    });
+
+                    var infowindow = new google.maps.InfoWindow();
+                    var service = new google.maps.places.PlacesService(map);
+
+                    service.getDetails({
+                        placeId: 'ChIJeTUXaS8bdkgRPhPMrn_GCNA'
+                    }, function(place, status) {
+                        if (status === google.maps.places.PlacesServiceStatus.OK) {
+                            var marker = new google.maps.Marker({
+                                map: map,
+                                position: place.geometry.location
+                            });
+                            google.maps.event.addListener(marker, 'click', function() {
+                                infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
+                                    'Place ID: ' + place.place_id + '<br>' +
+                                    place.formatted_address + '</div>');
+                                infowindow.open(map, this);
+                            });
+                        }
+                    });
+                }
+            </script>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+    <!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017 | Built with ♡ at UCL &middot; </p>
+    </footer>
+
+</main>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<!-- GOOGLE MAPS API -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKbpjxcsIIxUwXmFGrYqDEf0YxFa5klec&libraries=places&callback=initMap"></script>
+</body>
+</html>

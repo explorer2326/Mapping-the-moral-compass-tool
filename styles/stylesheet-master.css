@@ -1,0 +1,360 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+/* steel blue color scheme: http://www.color-hex.com/color/4682b4 */
+
+
+/* STYLING OF FONTS
+-------------------------------------------------- */
+
+h1, h2 {font-family: 'Libre Baskerville', serif;}
+h3, h4, h5, h6, p, a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+/* ACTIVATE RALEWAY IF NEEDED */
+/* p {font-family: "Raleway", sans-serif} */
+
+/* SECTION, CONTAINERS, DIVS, CLASSES
+-------------------------------------------------- */
+
+
+/* HORIZONTAL LINES */
+hr {
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+}
+
+
+.container  {
+    margin-top: 6%;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #386890!important;
+    position: absolute!important;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+}
+
+.top-section    {
+    text-align: center;
+}
+
+.report-heading    {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 4rem;
+    font-size: 1.75rem;
+    color: #000;
+}
+
+.section-one    {
+    max-width: 800px;
+    padding: 1rem;
+    margin-left: 7%;
+    background-color: #d3d3d3;
+}
+
+
+/* ICON IN HEADER */
+.featurette-image {
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+
+th, td {
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    text-align: left;
+}
+
+table th    {
+    /* Specifiy the table headings here */
+}
+
+button  {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #82b446;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    font-size: 100%;
+    text-transform: uppercase;
+}
+
+.show-less-button{
+    float: right;
+    padding-right: 8rem;
+    border: none;
+    background-color: white;
+}
+
+.first-col  {
+    text-align: left;
+}
+
+.section-divider    {
+    padding: 2rem;
+}
+
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+.how-it-works   {
+    padding-left: 50px;
+}
+
+/* BRAND NAME IN HEADER SECTION */
+.navbar-brand {
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+
+/* MENU IN HEADER SECTION ( HOME ABOUT CONTACT ) */
+.navbar-collapse    {
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+/* IMAGES */
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* GOOGLE MAP */
+#map   {
+    width: 500px;
+    height: 300px;
+}
+
+
+/* STICKY SECTION HEADLINES */
+.followMeBar {
+    background: #9CB4C8;
+    padding: 10px 50px;
+    position: relative;
+    z-index: 1;
+    color: #000;
+    font-size: 1.75rem;
+    font-weight: 200;
+    height: 56px;
+}
+
+.followMeBar.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+.followMeBar.fixed.absolute {
+    position: absolute;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: 400;
+}
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 80px; /* Space out the Bootstrap <hr> more */
+}
+
+.colored-bar {
+    height: 100px;
+    background-color: #FBFBFB;
+    margin-top: 0px;
+    margin-bottom: 60px;
+
+}
+
+/* col-md-5 contains images on cover page */
+.col-md-5   {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* col-md-7 contains text boxes on cover page */
+.col-md-7   {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* 'Begin survey' button */
+.col-md-7 button {
+    padding: 6px 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #82b446;
+    color: #fff;
+    width: 280px;
+    height: 55px;
+    font-size: 120%;
+    text-transform: uppercase;
+}
+
+
+/* HOW IT WORKS SECTION */
+.col-lg-4   {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.col-md-12  {
+    background-image: url("../res/img/white-vectors-sml.png");
+    background-size: cover;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    letter-spacing: -.05rem;
+    font-family: 'Libre Baskerville', serif;
+    margin-left: 9%;
+    padding-top: 30px;
+
+}
+
+.how-it-works-heading   {
+    font-weight: 300;
+    letter-spacing: -.05rem;
+}
+
+.how-it-works-heading h2    {
+    text-align: center;
+}
+
+/* ICONS ON LANDING PAGE */
+.how-icon {
+    width: 180px;
+    height: 130px;
+    margin-left: 20%;
+}
+
+/* SURVEY QUESTIONS */
+.survey-box {
+    margin: 50px 50px;
+}
+
+/* PROGRESS BAR */
+.progress   {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #e9ecef;
+}
+
+.progress-bar {
+    text-align: center;
+}
+
+.button-prev    {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    background-color: #F1F1F1;
+    color: #4E4E4E;
+    width: 200px;
+    height: 40px;
+    font-size: 100%;
+    text-transform: uppercase;
+}
+
+.button-less    {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #F1F1F1;
+    color: #4E4E4E;
+    width: 200px;
+    height: 40px;
+    font-size: 100%;
+    text-transform: uppercase;
+}
+
+/* 'AGREE AND CONTINUE' BUTTON */
+.consent-box button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #82b446;
+    color: #fff;
+    width: 280px;
+    height: 55px;
+    font-size: 120%;
+    text-transform: uppercase;
+}
+
+.col-md-12 button   {
+    margin-left: 9%;
+    margin-bottom: 29%;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 40px;
+        line-height: 120%;
+        font-weight: 200;
+    }
+
+    .lead   {
+        font-size: 1.15rem;
+        line-height: 160%;
+        margin: 3% 22% 3% 9%;
+    }
+}
+
+/* INSTALLED FONTS
+-------------------------------------------------- */
+
+@font-face
+{
+    font-family: Jura-Regular, ClearSans-Regular, ClearSans-Italic, "Libre Baskerville";
+    src: url("../res/fonts/Jura-Regular.ttf"),
+    url("../res/fonts/ClearSans-Regular.ttf"),
+    url("../res/fonts/ClearSans-Italic.ttf");
+}
